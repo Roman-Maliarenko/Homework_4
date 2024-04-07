@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="greetings.html">
+   <div>
+    <h2>
+        Письмо Санте
+    </h2>
+    </div>
+    <div>
+    <h>
+        Дорогой друг, не стесняйся и расскажи Санте о том,
+         кто ты и том, что ты хочешь получить на Рождество.
+    </h>
+   </div>
+    <div>
+        <label for="">
+        <input id="login" type="text" placeholder="Логин" required>
+    </label>
+    </div>
+    <div>
+    <label for="">
+        <input type="password" placeholder="Пароль" required>
+    </label>
+    </div>
+    <div>
+    <label for="">
+        <input type="name" placeholder="Имя" required>
+    </label>
+    </div>
+    <div>
+        <label for="">
+        <input type="text" placeholder="Твое хобби" required>
+        </label>
+    </div>
+    <div>
+    <p>Вибери любимый цвет:</p>
+    <input type="color" required>
+    </div>
+    <div>  
+    <h3>Пол:</h3>
+    <input id="gender1" type="radio" name="gender" value="Мальчик" required>
+    <label for="gender1">Мальчик</label>
+    <input id="gender2" type="radio" name="gender" value="Девочка" required>
+    <label for="gender2">Девочка</label>
+    </div>
+    <div>
+        <h>Дата рождения:</h>
+        <input type="date" name="birthDate" id="birthDate">
+        <label for="birthDate"></label>
+    </div>
+    <div>
+    <label for="">
+        <select name="content" form="contact-from">            
+        <option value="form">Санкт-Петербург</option>
+        <option value="form">Москва</option>
+        <option selected value="form">Питер</option>
+        </select>
+        </label>
+    </div>
+    <p>
+    Выбери цвет своей новой игрушки:
+    </p>
+    <div>
+        <label for="color"></label> 
+        <input type="color" id="color" name="color">
+        <label for="color">Шапочка</label>
+    </div>
+    <div>
+        <label for="color"></label> 
+        <input type="color" id="color" name="color">
+        <label for="color">Костюм</label>
+    </div>
+    <div>
+        <p>
+        Ты был хорошим ребенком?
+        </p>
+    <input type="radio" name="agree" id="agree" value="agree" required>
+    <label for="agree">Да</label>
+    <input type="radio" name="agree" id="agree_n" value="agree_n" required>
+    <label for="agree_n">Нет</label>
+    </div>
+    <div>
+    <p>Ты любишь делиться?</p>
+    <input type="radio" name="agree1" id="agree" value="agree" required>
+    <label for="">Всегда</label>
+    <input type="radio" name="agree1" id="agree" value="agree" required>
+    <label for="">Иногда</label>
+    <input type="radio" name="agree1" id="agree" value="agree" required>
+    <label for="">Я предпочитаю не делиться</label>
+    </div>
+    <div class="post">
+    <button>Отправить письмо Санте</button>
+    </div>
+</form>
+</body>
+</html>
